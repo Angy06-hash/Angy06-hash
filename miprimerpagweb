@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angelina Hernández - Escritora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #343a40;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #007bff;
+        }
+        section {
+            padding: 2rem;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            color: #007bff;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Angelina Hernández - Escritora</h1>
+    </header>
+    <nav>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#blog">Blog</a>
+    </nav>
+    <section id="sobre-mi" class="content">
+        <h2>Sobre mí</h2>
+        <p>Hola, soy Angelina Hernández, una apasionada escritora con una dedicación profunda a la creación de historias cautivadoras y emocionantes. Con años de experiencia en el mundo literario, me esfuerzo por transmitir emociones y pensamientos a través de mis palabras.</p>
+    </section>
+    <section id="proyectos" class="content">
+        <h2>Proyectos</h2>
+        <p>Aquí puedes encontrar algunos de mis proyectos más recientes y destacados.</p>
+        <!-- Puedes agregar aquí una lista de proyectos con enlaces o descripciones -->
+    </section>
+    <section id="habilidades" class="content">
+        <h2>Habilidades</h2>
+        <p>Mis principales habilidades incluyen:</p>
+        <ul>
+            <li>Redacción creativa</li>
+            <li>Edición y corrección de textos</li>
+            <li>Investigación y documentación</li>
+            <li>Narrativa y desarrollo de personajes</li>
+        </ul>
+    </section>
+    <section id="contacto" class="content">
+        <h2>Contacto</h2>
+        <p>Si deseas ponerte en contacto conmigo, puedes enviarme un correo electrónico a <a href="mailto:angelina@example.com">angelina@example.com</a> o seguirme en mis redes sociales.</p>
+    </section>
+    <section id="blog" class="content">
+        <h2>Blog</h2>
+        <p>En mi blog, comparto reflexiones sobre el proceso de escritura, consejos para escritores y mis pensamientos sobre diversos temas literarios.</p>
+        <!-- Puedes agregar aquí enlaces a tus publicaciones de blog -->
+    </section>
+    <footer>
+        <p>&copy; 2024 Angelina Hernández. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
